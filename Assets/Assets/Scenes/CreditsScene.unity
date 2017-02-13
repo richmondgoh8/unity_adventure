@@ -289,10 +289,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 183314592}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54b51cf8caa6add44a7d227c00bd812b, type: 3}
+  m_Script: {fileID: 11500000, guid: d1120a462d42a904ea9ec524aa993299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MenuScene: 4d656e755363656e65
+  MenuScene: MenuScene
 --- !u!1 &189997297
 GameObject:
   m_ObjectHideFlags: 0
