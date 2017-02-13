@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 4
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_DirectLightInLightProbes: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+  m_LightingDataAsset: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &1310463918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1310463920}
+  - component: {fileID: 1310463919}
+  - component: {fileID: 1310463921}
+  m_Layer: 0
+  m_Name: PersistantData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1310463919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1310463918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb65162b2d784249bbe5b2bfbe89c23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noOfActs:
+  - ActName: Act I
+    ActNumber: 0
+    numberOfDialogues:
+    - DialogueOrder: 0
+      location: 'Living Room '
+      DialogueText: 'Lying on my room, pondering over all the decisions that I''ve
+        made in my life  '
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 6c501b68297059646bc28fb05707fcfb,
+        type: 3}
+      decisions: []
+    - DialogueOrder: 1
+      location: 'Living Room '
+      DialogueText: 'Tears stream down my tears for time could not turn back time. '
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 6c501b68297059646bc28fb05707fcfb,
+        type: 3}
+      decisions: []
+    - DialogueOrder: 2
+      location: 'Living Room '
+      DialogueText: 'I wish there was a chance to turn back time..to start all over
+        again. Living alone In this cold, dark desolate place wiith only creaking
+        floors and howling winds accompanying me '
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 6c501b68297059646bc28fb05707fcfb,
+        type: 3}
+      decisions: []
+    - DialogueOrder: 3
+      location: 'Living Room '
+      DialogueText: "Can't seem to fall asleep at all\u2026 maybe I should go take
+        a walk "
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 6c501b68297059646bc28fb05707fcfb,
+        type: 3}
+      decisions: []
+    - DialogueOrder: 4
+      location: Forest
+      DialogueText: 'Living in the middle of nowhere has it pros too, Surrounded by
+        the beautiful forest in the day.  '
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 56d1ff8d1843deb4fb9e3dc9d79083fa,
+        type: 3}
+      decisions: []
+    - DialogueOrder: 5
+      location: Forest
+      DialogueText: 'Though it changes dramtically at night and becomes creepy, it
+        still provides me with a sense of tranquility '
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 56d1ff8d1843deb4fb9e3dc9d79083fa,
+        type: 3}
+      decisions: []
+    - DialogueOrder: 6
+      location: Forest
+      DialogueText: 'Uuunnnggg '
+      SpeakerName: 
+      SpeakerImage: {fileID: 21300000, guid: 3969947e71cc29d47bff2643bb9bfedd, type: 3}
+      BackgroundImage: {fileID: 21300000, guid: 56d1ff8d1843deb4fb9e3dc9d79083fa,
+        type: 3}
+      decisions: []
+    - DialogueOrder: 7
+      location: Graveyard
+      DialogueText: 'Hmm, What''s that sound? Maybe I was just dreaming '
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 09f3c48ed3abd6c4f87e9fb8900b37fe,
+        type: 3}
+      decisions: []
+    - DialogueOrder: 8
+      location: Graveyard
+      DialogueText: 'UNNNNUUUHHHGGGGG!!! '
+      SpeakerName: 
+      SpeakerImage: {fileID: 21300000, guid: 3969947e71cc29d47bff2643bb9bfedd, type: 3}
+      BackgroundImage: {fileID: 21300000, guid: 09f3c48ed3abd6c4f87e9fb8900b37fe,
+        type: 3}
+      decisions: []
+    - DialogueOrder: 9
+      location: Graveyard
+      DialogueText: 'Hmm, Should I go to nearer to the source of the sound? '
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 09f3c48ed3abd6c4f87e9fb8900b37fe,
+        type: 3}
+      decisions:
+      - answerText: Yes
+        decisionTree: 25
+      - answerText: No
+        decisionTree: 100
+    - DialogueOrder: 25
+      location: Graveyard
+      DialogueText: 'Wallking to the source..to my amaze.. '
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 09f3c48ed3abd6c4f87e9fb8900b37fe,
+        type: 3}
+      decisions: []
+    - DialogueOrder: 100
+      location: Living Room
+      DialogueText: "Hmm, maybe it a sign that I should go home first\u2026 "
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 6c501b68297059646bc28fb05707fcfb,
+        type: 3}
+      decisions: []
+    - DialogueOrder: 26
+      location: Castle
+      DialogueText: 'What lies ahead this gruesome sight? '
+      SpeakerName: 
+      SpeakerImage: {fileID: 21300000, guid: c52a185d2aa23ed45bbbbbf971861f81, type: 3}
+      BackgroundImage: {fileID: 21300000, guid: 6450c80d9f175cb49b05f7f42415ebf4,
+        type: 3}
+      decisions: []
+    - DialogueOrder: 101
+      location: Castle
+      DialogueText: 'Hopefully it will just be another normal day '
+      SpeakerName: 
+      SpeakerImage: {fileID: 21300000, guid: c52a185d2aa23ed45bbbbbf971861f81, type: 3}
+      BackgroundImage: {fileID: 21300000, guid: 6450c80d9f175cb49b05f7f42415ebf4,
+        type: 3}
+      decisions: []
+  - ActName: Act II
+    ActNumber: 1
+    numberOfDialogues:
+    - DialogueOrder: 0
+      location: San Fransico
+      DialogueText: 'TBA '
+      SpeakerName: Joege
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: ef1dbda781e6f1141a0093df49184184,
+        type: 3}
+      decisions: []
+  MenuScene: MenuScene
+--- !u!4 &1310463920
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1310463918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1310463921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1310463918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c6db6791227ae246beaaf0518a8b4ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLoaded: 0
+  slotNumber: 0
