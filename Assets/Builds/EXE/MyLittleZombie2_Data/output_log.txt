@@ -1,0 +1,49 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   NVIDIA
+    VRAM:     2986 MB
+    Driver:   21.21.13.7849
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\UnityGitBash\AStoryAdventure\Assets\Builds\EXE\MyLittleZombie2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\UnityGitBash\AStoryAdventure\Assets\Builds\EXE\MyLittleZombie2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\UnityGitBash\AStoryAdventure\Assets\Builds\EXE\MyLittleZombie2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\UnityGitBash\AStoryAdventure\Assets\Builds\EXE\MyLittleZombie2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\UnityGitBash\AStoryAdventure\Assets\Builds\EXE\MyLittleZombie2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\UnityGitBash\AStoryAdventure\Assets\Builds\EXE\MyLittleZombie2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\UnityGitBash\AStoryAdventure\Assets\Builds\EXE\MyLittleZombie2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\UnityGitBash\AStoryAdventure\Assets\Builds\EXE\MyLittleZombie2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\UnityGitBash\AStoryAdventure\Assets\Builds\EXE\MyLittleZombie2_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\UnityGitBash\AStoryAdventure\Assets\Builds\EXE\MyLittleZombie2_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.021 seconds
+Platform assembly: D:\UnityGitBash\AStoryAdventure\Assets\Builds\EXE\MyLittleZombie2_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\UnityGitBash\AStoryAdventure\Assets\Builds\EXE\MyLittleZombie2_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.339837 ms
+RUN
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.162347 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 359.
+Total: 0.277879 ms (FindLiveObjects: 0.049837 ms CreateObjectMapping: 0.027561 ms MarkObjects: 0.197460 ms  DeleteObjects: 0.002642 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.260412 ms
+EMOTION2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 424.
+Total: 4.537059 ms (FindLiveObjects: 0.043418 ms CreateObjectMapping: 0.012836 ms MarkObjects: 0.249940 ms  DeleteObjects: 4.229730 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 281c -> priority: 1 
