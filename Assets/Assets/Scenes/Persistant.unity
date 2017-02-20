@@ -120,141 +120,792 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noOfActs:
-  - ActName: Act I
+  - ActName: In The Woods
     ActNumber: 0
     numberOfDialogues:
-    - DialogueOrder: 0
-      location: 'Living Room '
-      DialogueText: 'Lying on my room, pondering over all the decisions that I''ve
-        made in my life  '
-      SpeakerName: 
-      SpeakerImage: {fileID: 0}
-      BackgroundImage: {fileID: 21300000, guid: 6c501b68297059646bc28fb05707fcfb,
-        type: 3}
-      decisions: []
-    - DialogueOrder: 1
-      location: 'Living Room '
-      DialogueText: 'Tears stream down my tears for time could not turn back time. '
-      SpeakerName: 
-      SpeakerImage: {fileID: 0}
-      BackgroundImage: {fileID: 21300000, guid: 6c501b68297059646bc28fb05707fcfb,
-        type: 3}
-      decisions: []
-    - DialogueOrder: 2
-      location: 'Living Room '
-      DialogueText: 'I wish there was a chance to turn back time..to start all over
-        again. Living alone In this cold, dark desolate place wiith only creaking
-        floors and howling winds accompanying me '
-      SpeakerName: 
-      SpeakerImage: {fileID: 0}
-      BackgroundImage: {fileID: 21300000, guid: 6c501b68297059646bc28fb05707fcfb,
-        type: 3}
-      decisions: []
-    - DialogueOrder: 3
-      location: 'Living Room '
-      DialogueText: "Can't seem to fall asleep at all\u2026 maybe I should go take
-        a walk "
-      SpeakerName: 
-      SpeakerImage: {fileID: 0}
-      BackgroundImage: {fileID: 21300000, guid: 6c501b68297059646bc28fb05707fcfb,
-        type: 3}
-      decisions: []
-    - DialogueOrder: 4
+    - Title: Story ID 1
+      DialogueOrder: 0
       location: Forest
-      DialogueText: 'Living in the middle of nowhere has it pros too, Surrounded by
-        the beautiful forest in the day.  '
-      SpeakerName: 
-      SpeakerImage: {fileID: 0}
-      BackgroundImage: {fileID: 21300000, guid: 56d1ff8d1843deb4fb9e3dc9d79083fa,
+      DialogueText: Hey! You wanna go ghost hunting?
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 21300000, guid: c218f3503b608734ab8d5c1207810362, type: 3}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
         type: 3}
+      soundToPlay: {fileID: 0}
       decisions: []
-    - DialogueOrder: 5
+    - Title: Story ID 2
+      DialogueOrder: 1
       location: Forest
-      DialogueText: 'Though it changes dramtically at night and becomes creepy, it
-        still provides me with a sense of tranquility '
+      DialogueText: Ghost Hunting?
       SpeakerName: 
       SpeakerImage: {fileID: 0}
-      BackgroundImage: {fileID: 21300000, guid: 56d1ff8d1843deb4fb9e3dc9d79083fa,
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
         type: 3}
+      soundToPlay: {fileID: 0}
       decisions: []
-    - DialogueOrder: 6
+    - Title: Story ID 3
+      DialogueOrder: 2
       location: Forest
-      DialogueText: 'Uuunnnggg '
-      SpeakerName: 
-      SpeakerImage: {fileID: 21300000, guid: 3969947e71cc29d47bff2643bb9bfedd, type: 3}
-      BackgroundImage: {fileID: 21300000, guid: 56d1ff8d1843deb4fb9e3dc9d79083fa,
+      DialogueText: Pulls out aluminum Y with a slack wire running across its arms
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 21300000, guid: b03002e9cd2032c45b3875702be9ac3c, type: 3}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
         type: 3}
+      soundToPlay: {fileID: 0}
       decisions: []
-    - DialogueOrder: 7
-      location: Graveyard
-      DialogueText: 'Hmm, What''s that sound? Maybe I was just dreaming '
+    - Title: Story ID 4
+      DialogueOrder: 3
+      location: Forest
+      DialogueText: I got this in the mail
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 21300000, guid: c218f3503b608734ab8d5c1207810362, type: 3}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 5
+      DialogueOrder: 4
+      location: Forest
+      DialogueText: What is it?
       SpeakerName: 
       SpeakerImage: {fileID: 0}
-      BackgroundImage: {fileID: 21300000, guid: 09f3c48ed3abd6c4f87e9fb8900b37fe,
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
         type: 3}
+      soundToPlay: {fileID: 0}
       decisions: []
-    - DialogueOrder: 8
-      location: Graveyard
-      DialogueText: 'UNNNNUUUHHHGGGGG!!! '
-      SpeakerName: 
-      SpeakerImage: {fileID: 21300000, guid: 3969947e71cc29d47bff2643bb9bfedd, type: 3}
-      BackgroundImage: {fileID: 21300000, guid: 09f3c48ed3abd6c4f87e9fb8900b37fe,
+    - Title: Story ID 6
+      DialogueOrder: 5
+      location: Forest
+      DialogueText: A ghost Zapper. It Shoots out electrical waves
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 21300000, guid: 9cc0fccae5d9bae468ab5a0e26d6e410, type: 3}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
         type: 3}
+      soundToPlay: {fileID: 0}
       decisions: []
-    - DialogueOrder: 9
-      location: Graveyard
-      DialogueText: 'Hmm, Should I go to nearer to the source of the sound? '
+    - Title: Story ID 7
+      DialogueOrder: 6
+      location: Forest
+      DialogueText: You can't kill ghosts, They're already dead
       SpeakerName: 
       SpeakerImage: {fileID: 0}
-      BackgroundImage: {fileID: 21300000, guid: 09f3c48ed3abd6c4f87e9fb8900b37fe,
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
         type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 8
+      DialogueOrder: 7
+      location: Forest
+      DialogueText: "But you can make them\_\_dead, he explained. Finished. Kaput.
+        No more"
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 9
+      DialogueOrder: 8
+      location: Forest
+      DialogueText: How does it do that?
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 10
+      DialogueOrder: 9
+      location: Forest
+      DialogueText: Ghosts are just waves themselves. Brain waves without a body.
+        The waves go right through your skull and make you see what looks like a ghost
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 11
+      DialogueOrder: 10
+      location: Forest
+      DialogueText: You mean you don't actually see ghosts?
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 12
+      DialogueOrder: 11
+      location: Forest
+      DialogueText: Your brain sees ghosts
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 12
+      DialogueOrder: 12
+      location: Forest
+      DialogueText: My brain sees you
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 13
+      DialogueOrder: 13
+      location: Forest
+      DialogueText: '*Trees Whistling*'
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: 7f6a694cd9dabe34baa5a6bd67cc03d1, type: 3}
+      decisions: []
+    - Title: Story ID 14
+      DialogueOrder: 14
+      location: Forest
+      DialogueText: Eh, You Heard That?
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 15
+      DialogueOrder: 15
+      location: Forest
+      DialogueText: Heard What?
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 16
+      DialogueOrder: 16
+      location: Forest
+      DialogueText: '*Trees Whistling again*'
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: 7f6a694cd9dabe34baa5a6bd67cc03d1, type: 3}
+      decisions: []
+    - Title: Story ID 17
+      DialogueOrder: 17
+      location: Forest
+      DialogueText: That!
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 18
+      DialogueOrder: 18
+      location: Forest
+      DialogueText: Go check it out!
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 19
+      DialogueOrder: 19
+      location: Forest
+      DialogueText: What should you do?
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
       decisions:
-      - answerText: Yes
+      - answerText: Investigate
         decisionTree: 25
-      - answerText: No
+      - answerText: Go Back Home
+        decisionTree: 50
+      - answerText: Shout
+        decisionTree: 75
+    - Title: Story ID 75
+      DialogueOrder: 75
+      location: Forest
+      DialogueText: Hey!! Anybody There! Come out now!
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 76
+      DialogueOrder: 76
+      location: Forest
+      DialogueText: A gush of cold wind suddenly went past
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: 6d674d7e849e48d4983351527b4817a1, type: 3}
+      decisions: []
+    - Title: Story ID 77
+      DialogueOrder: 77
+      location: Forest
+      DialogueText: "Brr\u2026"
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 78
+      DialogueOrder: 78
+      location: Forest
+      DialogueText: 'Turning back, there was a pair of red glowing eyes '
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 79
+      DialogueOrder: 79
+      location: Forest
+      DialogueText: "I should\u2026"
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions:
+      - answerText: Pick up a rock and throw at it
+        decisionTree: 80
+      - answerText: Run in Terror
         decisionTree: 100
-    - DialogueOrder: 25
-      location: Graveyard
-      DialogueText: 'Wallking to the source..to my amaze.. '
+    - Title: Story ID 80
+      DialogueOrder: 80
+      location: Forest
+      DialogueText: "Thud\u2026 Bloods on my hand..dies"
       SpeakerName: 
       SpeakerImage: {fileID: 0}
-      BackgroundImage: {fileID: 21300000, guid: 09f3c48ed3abd6c4f87e9fb8900b37fe,
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
         type: 3}
+      soundToPlay: {fileID: 8300000, guid: 354044f0a34ec1745bd2900841ebb9e6, type: 3}
       decisions: []
-    - DialogueOrder: 100
-      location: Living Room
-      DialogueText: "Hmm, maybe it a sign that I should go home first\u2026 "
+    - Title: Story ID 100
+      DialogueOrder: 100
+      location: Forest
+      DialogueText: Running away, never looking back
       SpeakerName: 
       SpeakerImage: {fileID: 0}
-      BackgroundImage: {fileID: 21300000, guid: 6c501b68297059646bc28fb05707fcfb,
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
         type: 3}
+      soundToPlay: {fileID: 8300000, guid: 70656fa7e2b13734b938fa0f71aa30d1, type: 3}
       decisions: []
-    - DialogueOrder: 26
-      location: Castle
-      DialogueText: 'What lies ahead this gruesome sight? '
+    - Title: Story ID 101
+      DialogueOrder: 101
+      location: Forest
+      DialogueText: Footsteps seems to be following me
       SpeakerName: 
-      SpeakerImage: {fileID: 21300000, guid: c52a185d2aa23ed45bbbbbf971861f81, type: 3}
-      BackgroundImage: {fileID: 21300000, guid: 6450c80d9f175cb49b05f7f42415ebf4,
-        type: 3}
-      decisions: []
-    - DialogueOrder: 101
-      location: Castle
-      DialogueText: 'Hopefully it will just be another normal day '
-      SpeakerName: 
-      SpeakerImage: {fileID: 21300000, guid: c52a185d2aa23ed45bbbbbf971861f81, type: 3}
-      BackgroundImage: {fileID: 21300000, guid: 6450c80d9f175cb49b05f7f42415ebf4,
-        type: 3}
-      decisions: []
-  - ActName: Act II
-    ActNumber: 1
-    numberOfDialogues:
-    - DialogueOrder: 0
-      location: San Fransico
-      DialogueText: 'TBA '
-      SpeakerName: Joege
       SpeakerImage: {fileID: 0}
-      BackgroundImage: {fileID: 21300000, guid: ef1dbda781e6f1141a0093df49184184,
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
         type: 3}
+      soundToPlay: {fileID: 8300000, guid: 70656fa7e2b13734b938fa0f71aa30d1, type: 3}
+      decisions: []
+    - Title: Story ID 102
+      DialogueOrder: 102
+      location: Forest
+      DialogueText: Suddenly a tap on the shoulder!
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: 8baec25787251c242bbe850205b5a19b, type: 3}
+      decisions: []
+    - Title: Story ID 103
+      DialogueOrder: 103
+      location: Forest
+      DialogueText: Hey, why you running away so fast
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 104
+      DialogueOrder: 104
+      location: Forest
+      DialogueText: "You Scared me Jacob\u2026"
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 105
+      DialogueOrder: 105
+      location: Forest
+      DialogueText: You're the one running away from me..
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 106
+      DialogueOrder: 106
+      location: Forest
+      DialogueText: Are we still gonna hunt?
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 107
+      DialogueOrder: 107
+      location: Forest
+      DialogueText: umm.. We should
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions:
+      - answerText: Call it a day
+        decisionTree: 110
+      - answerText: Okay..Just for a little while
+        decisionTree: 115
+    - Title: Story ID 110
+      DialogueOrder: 110
+      location: Forest
+      DialogueText: YOU COWARD!
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 115
+      DialogueOrder: 115
+      location: Forest
+      DialogueText: Let's walk back, I'll prepare my ghost zapper
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 116
+      DialogueOrder: 116
+      location: Forest
+      DialogueText: "\u2026  "
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 117
+      DialogueOrder: 117
+      location: Forest
+      DialogueText: Jacob..What are you doing? Why aren't you moving?
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 118
+      DialogueOrder: 118
+      location: Forest
+      DialogueText: "TO BE CONTINUED\u2026"
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 50
+      DialogueOrder: 50
+      location: Forest
+      DialogueText: Chills sent down your spine..but oh well
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 25
+      DialogueOrder: 25
+      location: Forest
+      DialogueText: Let's Get This On!!!
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 26
+      DialogueOrder: 26
+      location: Forest
+      DialogueText: Oh, seems like someone is starting to believe me uh..
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 27
+      DialogueOrder: 27
+      location: Forest
+      DialogueText: No.. Its not that
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 28
+      DialogueOrder: 28
+      location: Forest
+      DialogueText: I just want to prove to you how naive you are
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 29
+      DialogueOrder: 29
+      location: Forest
+      DialogueText: Walking deeper into the abyss of the forest
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 30
+      DialogueOrder: 30
+      location: Forest
+      DialogueText: The air seems to be thinner the further we thread into the forest
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 31
+      DialogueOrder: 31
+      location: Forest
+      DialogueText: You can feel it too, can't you?
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 32
+      DialogueOrder: 32
+      location: Forest
+      DialogueText: Gahhhh!!!
+      SpeakerName: Zombie
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: 6ded818c35442144fac0ea12fd66675e, type: 3}
+      decisions: []
+    - Title: Story ID 33
+      DialogueOrder: 33
+      location: Forest
+      DialogueText: OMG, WHAT THE HECK IS THAT?!
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 34
+      DialogueOrder: 34
+      location: Forest
+      DialogueText: ZZZZTT!
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: 53fe0ecb6a0bb2148b7a874d2cdf48ac, type: 3}
+      decisions: []
+    - Title: Story ID 35
+      DialogueOrder: 35
+      location: Forest
+      DialogueText: '*GROANS IN PAIN*'
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: cb661b028090926499548f76f0f3546e, type: 3}
+      decisions: []
+    - Title: Story ID 36
+      DialogueOrder: 36
+      location: Forest
+      DialogueText: Is it dead yet?
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 37
+      DialogueOrder: 37
+      location: Forest
+      DialogueText: "No\u2026I doubt that"
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 38
+      DialogueOrder: 38
+      location: Forest
+      DialogueText: Its getting back up.. Now what?!
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions:
+      - answerText: Zap It Again
+        decisionTree: 200
+      - answerText: Run Off
+        decisionTree: 230
+      - answerText: Stab it with a nearby branch
+        decisionTree: 250
+    - Title: Story ID 200
+      DialogueOrder: 200
+      location: Forest
+      DialogueText: ZZZZZTTT!
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: 53fe0ecb6a0bb2148b7a874d2cdf48ac, type: 3}
+      decisions: []
+    - Title: Story ID 201
+      DialogueOrder: 201
+      location: Forest
+      DialogueText: ARGH!!!!
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: cb661b028090926499548f76f0f3546e, type: 3}
+      decisions: []
+    - Title: Story ID 202
+      DialogueOrder: 202
+      location: Forest
+      DialogueText: Shit! Nothing is happening again
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 203
+      DialogueOrder: 203
+      location: Forest
+      DialogueText: Watch out!!!!
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 204
+      DialogueOrder: 204
+      location: Forest
+      DialogueText: '*Blood Splatters*'
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: 354044f0a34ec1745bd2900841ebb9e6, type: 3}
+      decisions: []
+    - Title: Story ID 230
+      DialogueOrder: 230
+      location: Forest
+      DialogueText: '*Running Away*'
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: 70656fa7e2b13734b938fa0f71aa30d1, type: 3}
+      decisions: []
+    - Title: Story ID 231
+      DialogueOrder: 231
+      location: Forest
+      DialogueText: '*Zombie Sprinting*'
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: 70656fa7e2b13734b938fa0f71aa30d1, type: 3}
+      decisions: []
+    - Title: Story ID 232
+      DialogueOrder: 232
+      location: Forest
+      DialogueText: '*Thud*'
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: 354044f0a34ec1745bd2900841ebb9e6, type: 3}
+      decisions: []
+    - Title: Story ID 233
+      DialogueOrder: 233
+      location: Forest
+      DialogueText: 'Hey, GET UP! Now''s not the time to be resting!! '
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 234
+      DialogueOrder: 234
+      location: Forest
+      DialogueText: '*continue sprinting*'
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: 70656fa7e2b13734b938fa0f71aa30d1, type: 3}
+      decisions: []
+    - Title: Story ID 235
+      DialogueOrder: 235
+      location: Forest
+      DialogueText: Brshh, A hand got me from the ground!
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 236
+      DialogueOrder: 236
+      location: Forest
+      DialogueText: oh gosh.. What is happening
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 237
+      DialogueOrder: 237
+      location: Forest
+      DialogueText: '*many hands start appearing out of nowhere*'
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 250
+      DialogueOrder: 250
+      location: Forest
+      DialogueText: '*grab the branch and bites Jacob*'
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: e0d6b86e3dcdf8844879b846b05cdf1c, type: 3}
+      decisions: []
+    - Title: Story ID 251
+      DialogueOrder: 251
+      location: Forest
+      DialogueText: Oh Crap..
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions:
+      - answerText: Grab Jacob and Run Off
+        decisionTree: 238
+    - Title: Story ID 238
+      DialogueOrder: 238
+      location: Forest
+      DialogueText: '*panting heavily*'
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: fdd18c03c0a2d97408b468d495f23876, type: 3}
+      decisions: []
+    - Title: Story ID 239
+      DialogueOrder: 239
+      location: Forest
+      DialogueText: I think we have lost them!
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 240
+      DialogueOrder: 240
+      location: Forest
+      DialogueText: "ughh, I don\u2019t feel so good"
+      SpeakerName: Jacob
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 241
+      DialogueOrder: 241
+      location: Forest
+      DialogueText: "Jacob..what are you doing\u2026"
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 242
+      DialogueOrder: 242
+      location: Forest
+      DialogueText: '*stabs*'
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 8300000, guid: 354044f0a34ec1745bd2900841ebb9e6, type: 3}
+      decisions: []
+    - Title: Story ID 243
+      DialogueOrder: 243
+      location: Forest
+      DialogueText: "I'm so sorry, I didn\u2019t mean it"
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
+      decisions: []
+    - Title: Story ID 244
+      DialogueOrder: 244
+      location: Forest
+      DialogueText: The End
+      SpeakerName: 
+      SpeakerImage: {fileID: 0}
+      BackgroundImage: {fileID: 21300000, guid: 8f5782951cc7d2a49bcb4d97f1594d10,
+        type: 3}
+      soundToPlay: {fileID: 0}
       decisions: []
   MenuScene: MenuScene
 --- !u!4 &1310463920

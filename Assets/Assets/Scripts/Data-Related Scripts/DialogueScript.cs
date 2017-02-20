@@ -16,11 +16,14 @@ using UnityEngine;
 [System.Serializable]
 public class DialogueScript
 {
+	public string Title;
     public int DialogueOrder;
     public string location;
     public string DialogueText;
     public string SpeakerName;
     public Sprite SpeakerImage;
     public Sprite BackgroundImage;
+	public AudioClip soundToPlay;
     public DecisionScript[] decisions;
+
 }
